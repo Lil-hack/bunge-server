@@ -1659,3 +1659,323 @@ java.lang.IllegalStateException: Cancelled ServerConnectEvent with no server or 
 11:53:46 [INFO] Saving reconnect locations
 11:53:46 [INFO] Disabling plugins
 11:53:46 [INFO] Closing IO threads
+12:22:03 [INFO] Using mbed TLS based native cipher.
+12:22:03 [INFO] Using zlib based native compressor.
+12:22:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:f1c32f8:1489
+12:22:03 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:22:03 [INFO] Epoll is working, utilising it!
+12:22:03 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:22:03 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:22:03 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:22:03 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:22:03 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:22:03 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:22:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Loaded plugin TestPlugin version 1.0 by username
+12:22:03 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [WARNING] Forced host server pvp is not defined
+12:22:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] [TestPlugin] Yay! It loads!
+12:22:03 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Enabled plugin TestPlugin version 1.0 by username
+12:22:03 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:03 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:22:04 [INFO] Listening on /0.0.0.0:25577
+12:23:02 [INFO] [/192.168.9.1:59298] <-> InitialHandler has pinged
+12:23:02 [INFO] [/192.168.9.1:59299] <-> InitialHandler has connected
+12:23:03 [INFO] lobby2
+12:23:03 [INFO] get servers info
+12:23:04 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:23:04 [INFO] gethost 13.53.122.73
+12:23:04 [INFO] ssip "13.53.122.73"
+12:23:04 [INFO] gethost localhost
+12:23:04 [INFO] ssip "13.53.122.73"
+12:23:04 [INFO] OK
+12:23:04 [SEVERE] java.lang.NullPointerException: target is marked non-null but is null
+12:23:04 [SEVERE] 	at net.md_5.bungee.api.event.ServerConnectEvent.setTarget(ServerConnectEvent.java:19)
+12:23:04 [SEVERE] 	at Events.onLogin(Events.java:39)
+12:23:04 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:23:04 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:23:04 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:23:04 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:23:04 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+12:23:04 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+12:23:04 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+12:23:04 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+12:23:04 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+12:23:04 [SEVERE] 	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:550)
+12:23:04 [SEVERE] 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+12:23:04 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+12:23:04 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+12:23:04 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+12:23:04 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+12:23:04 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+12:23:04 [INFO] [admin3] disconnected with: §fAll servers are busy. Try again later please.
+12:23:04 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false), reason=JOIN_PROXY, request=net.md_5.bungee.api.ServerConnectRequest@5594723, cancelled=false) took 1,440ms to process!
+12:23:04 [INFO] [admin3] -> UpstreamBridge has disconnected
+12:23:06 [INFO] lobby
+12:23:06 [INFO] get servers info
+12:23:06 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:23:06 [INFO] gethost 13.53.122.73
+12:23:06 [INFO] ssip "13.53.122.73"
+12:23:06 [INFO] gethost localhost
+12:23:06 [INFO] ssip "13.53.122.73"
+12:23:06 [INFO] OK
+12:23:06 [SEVERE] java.lang.NullPointerException: target is marked non-null but is null
+12:23:06 [SEVERE] 	at net.md_5.bungee.api.event.ServerConnectEvent.setTarget(ServerConnectEvent.java:19)
+12:23:06 [SEVERE] 	at Events.onLogin(Events.java:39)
+12:23:06 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:23:06 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:23:06 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:23:06 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:23:06 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+12:23:06 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+12:23:06 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+12:23:06 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+12:23:06 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+12:23:06 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:348)
+12:23:06 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:329)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+12:23:06 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.fulfillConnectPromise(AbstractEpollChannel.java:636)
+12:23:06 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:655)
+12:23:06 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:529)
+12:23:06 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:465)
+12:23:06 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+12:23:06 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+12:23:06 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+12:23:06 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+12:25:58 [INFO] Closing listener [id: 0x3463a38d, L:/0:0:0:0:0:0:0:0%0:25577]
+12:25:58 [INFO] Closing pending connections
+12:25:58 [INFO] Disconnecting 0 connections
+12:25:59 [INFO] Saving reconnect locations
+12:25:59 [INFO] Disabling plugins
+12:25:59 [INFO] Closing IO threads
+12:26:07 [INFO] Using mbed TLS based native cipher.
+12:26:07 [INFO] Using zlib based native compressor.
+12:26:07 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:f1c32f8:1489
+12:26:07 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:26:07 [INFO] Epoll is working, utilising it!
+12:26:07 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:26:07 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:26:07 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:26:07 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:26:07 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:26:07 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:26:07 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:07 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:07 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:07 [INFO] Loaded plugin TestPlugin version 1.0 by username
+12:26:07 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:07 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:07 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:08 [WARNING] Forced host server pvp is not defined
+12:26:08 [INFO] [TestPlugin] Yay! It loads!
+12:26:08 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:08 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:08 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:08 [INFO] Enabled plugin TestPlugin version 1.0 by username
+12:26:08 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:08 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:08 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:26:08 [INFO] Listening on /0.0.0.0:25577
+12:26:18 [INFO] [/192.168.9.1:59320] <-> InitialHandler has connected
+12:26:19 [INFO] lobby2
+12:26:19 [INFO] get servers info
+12:26:19 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:26:19 [INFO] gethost 13.53.122.73
+12:26:19 [INFO] ssip "13.53.122.73"
+12:26:19 [INFO] gethost localhost
+12:26:19 [INFO] ssip "13.53.122.73"
+12:26:19 [INFO] OK
+12:26:19 [SEVERE] java.lang.NullPointerException: target is marked non-null but is null
+12:26:19 [SEVERE] 	at net.md_5.bungee.api.event.ServerConnectEvent.setTarget(ServerConnectEvent.java:19)
+12:26:19 [SEVERE] 	at Events.onLogin(Events.java:41)
+12:26:19 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:26:19 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:26:19 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:26:19 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:26:19 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+12:26:19 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+12:26:19 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+12:26:19 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+12:26:19 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+12:26:19 [SEVERE] 	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:550)
+12:26:19 [SEVERE] 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+12:26:19 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+12:26:19 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+12:26:19 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+12:26:19 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+12:26:19 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+12:26:19 [INFO] [admin3] disconnected with: §fAll servers are busy. Try again later please.
+12:26:19 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false), reason=JOIN_PROXY, request=net.md_5.bungee.api.ServerConnectRequest@152fcda2, cancelled=false) took 750ms to process!
+12:26:19 [INFO] [admin3] -> UpstreamBridge has disconnected
+12:26:22 [INFO] lobby
+12:26:22 [INFO] get servers info
+12:26:22 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:26:22 [INFO] gethost 13.53.122.73
+12:26:22 [INFO] ssip "13.53.122.73"
+12:26:22 [INFO] gethost localhost
+12:26:22 [INFO] ssip "13.53.122.73"
+12:26:22 [INFO] OK
+12:26:22 [SEVERE] java.lang.NullPointerException: target is marked non-null but is null
+12:26:22 [SEVERE] 	at net.md_5.bungee.api.event.ServerConnectEvent.setTarget(ServerConnectEvent.java:19)
+12:26:22 [SEVERE] 	at Events.onLogin(Events.java:41)
+12:26:22 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:26:22 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:26:22 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:26:22 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:26:22 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+12:26:22 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+12:26:22 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+12:26:22 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+12:26:22 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+12:26:22 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:348)
+12:26:22 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:329)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+12:26:22 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.fulfillConnectPromise(AbstractEpollChannel.java:636)
+12:26:22 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:655)
+12:26:22 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:529)
+12:26:22 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:465)
+12:26:22 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+12:26:22 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+12:26:22 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+12:26:22 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+12:30:52 [INFO] Closing listener [id: 0xcb681ab8, L:/0:0:0:0:0:0:0:0%0:25577]
+12:30:52 [INFO] Closing pending connections
+12:30:52 [INFO] Disconnecting 0 connections
+12:30:53 [INFO] Saving reconnect locations
+12:30:53 [INFO] Disabling plugins
+12:30:53 [INFO] Closing IO threads
+12:31:03 [INFO] Using mbed TLS based native cipher.
+12:31:03 [INFO] Using zlib based native compressor.
+12:31:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:f1c32f8:1489
+12:31:03 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:31:03 [INFO] Epoll is working, utilising it!
+12:31:03 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:31:03 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:31:03 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:31:03 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:31:03 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:31:03 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:31:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Loaded plugin TestPlugin version 1.0 by username
+12:31:03 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [WARNING] Forced host server pvp is not defined
+12:31:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] [TestPlugin] Yay! It loads!
+12:31:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Enabled plugin TestPlugin version 1.0 by username
+12:31:03 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:31:03 [INFO] Listening on /0.0.0.0:25577
+12:31:14 [INFO] [/192.168.9.1:59357] <-> InitialHandler has connected
+12:31:14 [INFO] lobby2
+12:31:14 [INFO] get servers info
+12:31:15 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:31:15 [INFO] gethost 13.53.122.73
+12:31:15 [INFO] ssip "13.53.122.73"
+12:31:15 [INFO] size 0
+12:31:15 [INFO] max 0
+12:31:15 [INFO] OK BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false)
+12:31:15 [INFO] gethost localhost
+12:31:15 [INFO] ssip "13.53.122.73"
+12:31:15 [INFO] OK
+12:31:15 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false), reason=JOIN_PROXY, request=net.md_5.bungee.api.ServerConnectRequest@5594723, cancelled=false) took 704ms to process!
+12:31:17 [INFO] lobby
+12:31:17 [INFO] get servers info
+12:31:17 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:31:17 [INFO] gethost 13.53.122.73
+12:31:17 [INFO] ssip "13.53.122.73"
+12:31:17 [INFO] size 0
+12:31:17 [INFO] max 0
+12:31:17 [INFO] OK BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false)
+12:31:17 [INFO] gethost localhost
+12:31:17 [INFO] ssip "13.53.122.73"
+12:31:17 [INFO] OK
+12:31:19 [INFO] [admin3] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+12:31:19 [INFO] [admin3] -> UpstreamBridge has disconnected
+12:31:59 [INFO] [/192.168.9.1:59368] <-> InitialHandler has connected
+12:31:59 [INFO] lobby2
+12:31:59 [INFO] get servers info
+12:32:00 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:32:00 [INFO] gethost 13.53.122.73
+12:32:00 [INFO] ssip "13.53.122.73"
+12:32:00 [INFO] size 0
+12:32:00 [INFO] max 0
+12:32:00 [INFO] OK BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false)
+12:32:00 [INFO] gethost localhost
+12:32:00 [INFO] ssip "13.53.122.73"
+12:32:00 [INFO] OK
+12:32:00 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false), reason=JOIN_PROXY, request=net.md_5.bungee.api.ServerConnectRequest@405bd9ec, cancelled=false) took 741ms to process!
+12:32:02 [INFO] lobby
+12:32:02 [INFO] get servers info
+12:32:02 [INFO] {"servers": [{"ip": "13.53.122.73", "port": 25565, "state": 1}]}
+12:32:02 [INFO] gethost 13.53.122.73
+12:32:02 [INFO] ssip "13.53.122.73"
+12:32:02 [INFO] size 0
+12:32:02 [INFO] max 0
+12:32:02 [INFO] OK BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false)
+12:32:02 [INFO] gethost localhost
+12:32:02 [INFO] ssip "13.53.122.73"
+12:32:02 [INFO] OK
+12:32:04 [INFO] [admin3] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+12:32:04 [INFO] [admin3] -> UpstreamBridge has disconnected
+12:33:34 [INFO] Closing listener [id: 0x4c8ddbdf, L:/0:0:0:0:0:0:0:0%0:25577]
+12:33:34 [INFO] Closing pending connections
+12:33:34 [INFO] Disconnecting 0 connections
+12:33:35 [INFO] Saving reconnect locations
+12:33:35 [INFO] Disabling plugins
+12:33:35 [INFO] Closing IO threads
+12:33:37 [INFO] Thank you and goodbye
+12:33:44 [INFO] Using mbed TLS based native cipher.
+12:33:44 [INFO] Using zlib based native compressor.
+12:33:44 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:f1c32f8:1489
+12:33:44 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:33:44 [INFO] Epoll is working, utilising it!
+12:33:44 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:33:44 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:33:44 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:33:44 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:33:44 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:33:44 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:33:44 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Loaded plugin TestPlugin version 1.0 by username
+12:33:44 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [WARNING] Forced host server pvp is not defined
+12:33:44 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] [TestPlugin] Yay! It loads!
+12:33:44 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Enabled plugin TestPlugin version 1.0 by username
+12:33:44 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+12:33:44 [INFO] Listening on /0.0.0.0:25577
