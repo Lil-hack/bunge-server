@@ -1424,3 +1424,238 @@ java.lang.IllegalStateException: Cancelled ServerConnectEvent with no server or 
 19:23:59 [INFO] Saving reconnect locations
 19:23:59 [INFO] Disabling plugins
 19:23:59 [INFO] Closing IO threads
+11:39:59 [INFO] Using mbed TLS based native cipher.
+11:39:59 [INFO] Using zlib based native compressor.
+11:39:59 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.15-SNAPSHOT:f1c32f8:1489
+11:39:59 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+11:39:59 [INFO] Epoll is working, utilising it!
+11:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+11:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+11:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+11:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+11:39:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+11:39:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+11:39:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [INFO] Loaded plugin TestPlugin version 1.0 by username
+11:39:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [WARNING] Forced host server pvp is not defined
+11:39:59 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [INFO] [TestPlugin] Yay! It loads!
+11:39:59 [INFO] Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:39:59 [INFO] Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:40:00 [INFO] Enabled plugin TestPlugin version 1.0 by username
+11:40:00 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:40:00 [INFO] Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:40:00 [INFO] Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:f1c32f8:1489 by SpigotMC
+11:40:00 [INFO] Listening on /0.0.0.0:25577
+11:40:07 [INFO] §a[lobby2] §e(0): §r
+11:40:07 [INFO] §a[lobby] §e(0): §r
+11:40:07 [INFO] Total players online: 0
+11:41:03 [INFO] [/192.168.9.1:58966] <-> InitialHandler has connected
+11:41:03 [INFO] lobby2
+11:41:03 [INFO] get servers info
+11:41:04 [INFO] {"servers": []}
+11:41:04 [INFO] OK
+11:41:04 [SEVERE] java.lang.NullPointerException
+11:41:04 [SEVERE] 	at Events.onLogin(Events.java:36)
+11:41:04 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:41:04 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:41:04 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:41:04 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:41:04 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+11:41:04 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+11:41:04 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+11:41:04 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+11:41:04 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+11:41:04 [SEVERE] 	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:550)
+11:41:04 [SEVERE] 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+11:41:04 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+11:41:04 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+11:41:04 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+11:41:04 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+11:41:04 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+11:41:04 [INFO] [admin3] disconnected with: §fAll servers are busy. Try again later please.
+11:41:04 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false), reason=JOIN_PROXY, request=net.md_5.bungee.api.ServerConnectRequest@31bb024e, cancelled=false) took 709ms to process!
+11:41:04 [INFO] [admin3] -> UpstreamBridge has disconnected
+11:41:06 [INFO] lobby
+11:41:06 [INFO] get servers info
+11:41:06 [INFO] {"servers": []}
+11:41:06 [INFO] OK
+11:41:06 [SEVERE] java.lang.NullPointerException
+11:41:06 [SEVERE] 	at Events.onLogin(Events.java:36)
+11:41:06 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:41:06 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:41:06 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:41:06 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:41:06 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+11:41:06 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+11:41:06 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+11:41:06 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+11:41:06 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+11:41:06 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:348)
+11:41:06 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:329)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+11:41:06 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.fulfillConnectPromise(AbstractEpollChannel.java:636)
+11:41:06 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:655)
+11:41:06 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:529)
+11:41:06 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:465)
+11:41:06 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+11:41:06 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+11:41:06 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+11:41:06 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+11:41:06 [INFO] [admin3] <-> ServerConnector [lobby] has connected
+11:41:06 [WARNING] No client connected for pending server!
+11:41:06 [INFO] [admin3] <-> ServerConnector [lobby] has disconnected
+11:42:47 [INFO] [/192.168.9.1:58979] <-> InitialHandler has connected
+11:42:47 [INFO] lobby2
+11:42:47 [INFO] get servers info
+11:42:48 [INFO] {"servers": []}
+11:42:48 [INFO] OK
+11:42:48 [SEVERE] java.lang.NullPointerException
+11:42:48 [SEVERE] 	at Events.onLogin(Events.java:36)
+11:42:48 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:42:48 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:42:48 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:42:48 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:42:48 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+11:42:48 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+11:42:48 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+11:42:48 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+11:42:48 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+11:42:48 [SEVERE] 	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:550)
+11:42:48 [SEVERE] 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+11:42:48 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+11:42:48 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+11:42:48 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+11:42:48 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+11:42:48 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+11:42:48 [INFO] [admin3] disconnected with: §fAll servers are busy. Try again later please.
+11:42:48 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false), reason=JOIN_PROXY, request=net.md_5.bungee.api.ServerConnectRequest@c0f7e8, cancelled=false) took 507ms to process!
+11:42:48 [INFO] [admin3] -> UpstreamBridge has disconnected
+11:42:50 [INFO] lobby
+11:42:50 [INFO] get servers info
+11:42:50 [INFO] {"servers": []}
+11:42:50 [INFO] OK
+11:42:50 [SEVERE] java.lang.NullPointerException
+11:42:50 [SEVERE] 	at Events.onLogin(Events.java:36)
+11:42:50 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:42:50 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:42:50 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:42:50 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:42:50 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+11:42:50 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+11:42:50 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+11:42:50 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+11:42:50 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+11:42:50 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:348)
+11:42:50 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:329)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+11:42:50 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.fulfillConnectPromise(AbstractEpollChannel.java:636)
+11:42:50 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:655)
+11:42:50 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:529)
+11:42:50 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:465)
+11:42:50 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+11:42:50 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+11:42:50 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+11:42:50 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+11:42:50 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby, socketAddress=localhost/127.0.0.1:25565, restricted=false), reason=LOBBY_FALLBACK, request=net.md_5.bungee.api.ServerConnectRequest@38d42127, cancelled=false) took 273ms to process!
+11:42:50 [INFO] [admin3] <-> ServerConnector [lobby] has connected
+11:42:50 [WARNING] No client connected for pending server!
+11:42:50 [INFO] [admin3] <-> ServerConnector [lobby] has disconnected
+11:43:12 [INFO] [/192.168.9.1:58984] <-> InitialHandler has connected
+11:43:12 [INFO] lobby2
+11:43:12 [INFO] get servers info
+11:43:13 [INFO] {"servers": []}
+11:43:13 [INFO] OK
+11:43:13 [SEVERE] java.lang.NullPointerException
+11:43:13 [SEVERE] 	at Events.onLogin(Events.java:36)
+11:43:13 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:43:13 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:43:13 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:43:13 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:43:13 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+11:43:13 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+11:43:13 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+11:43:13 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+11:43:13 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+11:43:13 [SEVERE] 	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:550)
+11:43:13 [SEVERE] 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+11:43:13 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+11:43:13 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+11:43:13 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+11:43:13 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+11:43:13 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+11:43:13 [INFO] [admin3] disconnected with: §fAll servers are busy. Try again later please.
+11:43:13 [WARNING] Event ServerConnectEvent(player=admin3, target=BungeeServerInfo(name=lobby2, socketAddress=/13.53.122.73:25565, restricted=false), reason=JOIN_PROXY, request=net.md_5.bungee.api.ServerConnectRequest@5194fd01, cancelled=false) took 360ms to process!
+11:43:13 [INFO] [admin3] -> UpstreamBridge has disconnected
+11:43:15 [INFO] lobby
+11:43:15 [INFO] get servers info
+11:43:15 [INFO] {"servers": []}
+11:43:15 [INFO] OK
+11:43:15 [SEVERE] java.lang.NullPointerException
+11:43:15 [SEVERE] 	at Events.onLogin(Events.java:36)
+11:43:15 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:43:15 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:43:15 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:43:15 [SEVERE] 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:43:15 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+11:43:15 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+11:43:15 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:399)
+11:43:15 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:278)
+11:43:15 [SEVERE] 	at net.md_5.bungee.UserConnection.connect(UserConnection.java:268)
+11:43:15 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:348)
+11:43:15 [SEVERE] 	at net.md_5.bungee.UserConnection$4.operationComplete(UserConnection.java:329)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+11:43:15 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.fulfillConnectPromise(AbstractEpollChannel.java:636)
+11:43:15 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:655)
+11:43:15 [SEVERE] 	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:529)
+11:43:15 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:465)
+11:43:15 [SEVERE] 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+11:43:15 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+11:43:15 [SEVERE] 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+11:43:15 [SEVERE] 	at java.lang.Thread.run(Thread.java:748)
+11:43:15 [INFO] [admin3] <-> ServerConnector [lobby] has connected
+11:43:15 [WARNING] No client connected for pending server!
+11:43:15 [INFO] [admin3] <-> ServerConnector [lobby] has disconnected
+11:53:45 [SEVERE] Exception in thread "main" 
+11:53:45 [SEVERE] java.io.IOException: Input/output error
+11:53:45 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+11:53:45 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+11:53:45 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+11:53:45 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+11:53:45 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+11:53:45 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+11:53:45 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+11:53:45 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+11:53:45 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+11:53:45 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+11:53:45 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+11:53:45 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+11:53:45 [INFO] Closing listener [id: 0x6d10585e, L:/0:0:0:0:0:0:0:0%0:25577]
+11:53:45 [INFO] Closing pending connections
+11:53:45 [INFO] Disconnecting 0 connections
+11:53:46 [INFO] Saving reconnect locations
+11:53:46 [INFO] Disabling plugins
+11:53:46 [INFO] Closing IO threads
