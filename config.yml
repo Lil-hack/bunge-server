@@ -50,13 +50,9 @@ servers:
     restricted: false
   lobby2:
     motd: '&1Just another - Forced Host'
-    address: 18.196.3.233:25565
+    address: 13.53.127.65:25565
     restricted: false
   lobby3:
     motd: '&1Just another'
-    address: 18.197.147.224:25565
-    restricted: false
-  lobby4:
-    motd: '&1Just another'
-    address: 3.127.35.105:25565
+    address: 13.53.176.71:25565
     restricted: false
